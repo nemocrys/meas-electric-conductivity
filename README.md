@@ -1,4 +1,4 @@
-# 4-point-measurement
+# meas-electric-conductivity
 Measure voltage and specific resistance with the 4-Point-methode
 
 ## <u> 1. About Us: </u>
@@ -16,9 +16,11 @@ A Raspberry Pi 400 is used as the computer. Connected to the Pi are the "2450 So
 
 ---
 ##  <u> 4. Software setup: </u>
-### 4.1 The internal script "Setup00" of the "2450 SourceMeter" has to be configured for 4-point-measurement.
+### 4.1 Configure the "2450 SourceMeter"
+The internal script "Setup00" of the "2450 SourceMeter" has to be configured for 4-point-measurement.
 
-### 4.2 To use usbtmc (which is used to control the "2450 SourceMeter" ) without root, the following steps have to be taken:
+### 4.2 Use usbtmc
+To use usbtmc (which is used to control the "2450 SourceMeter" ) without root, the following steps have to be taken:
 
 Go to the rules.d folder.
 ```
@@ -40,7 +42,8 @@ sudo udevadm control -R
 ```
 Close and reopen your script. usbtmc should now be usable without root.
 
-### 4.3 The following external libraries are used: yaml, atexit, matplotlib, numpy, usbtmc
+### 4.3 external libraries
+The following external libraries are used: yaml, atexit, matplotlib, numpy, usbtmc
 
 
 ---
