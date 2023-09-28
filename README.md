@@ -16,13 +16,13 @@ A Raspberry Pi 400 is used as the computer. Connected to the Pi are the "2450 So
 
 ---
 ##  <u> 4. Software setup: </u>
-The internal script "Setup00" of the "2450 SourceMeter" has to be configured for 4-point-measurement.
+### 4.1 The internal script "Setup00" of the "2450 SourceMeter" has to be configured for 4-point-measurement.
 
-To use usbtmc (which is used to control the "2450 SourceMeter" ) without root, the following steps have to be taken:
+### 4.2 To use usbtmc (which is used to control the "2450 SourceMeter" ) without root, the following steps have to be taken:
 
 Go to the rules.d folder.
 ```
- cd /etc/udev/rules.d/
+cd /etc/udev/rules.d/
 ```
 Find (or create) the usbtmc.rules file and open it:
 ```
@@ -40,7 +40,7 @@ sudo udevadm control -R
 ```
 Close and reopen your script. usbtmc should now be usable without root.
 
-The following external libraries are used: yaml, atexit, matplotlib, numpy, usbtmc
+### 4.3 The following external libraries are used: yaml, atexit, matplotlib, numpy, usbtmc
 
 
 ---
