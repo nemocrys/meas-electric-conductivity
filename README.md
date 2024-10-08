@@ -12,6 +12,7 @@ The 4-Point method uses four probes to measure voltage at a set current, which i
 
 ---
 ##  <u> 3. Hardware setup: </u>
+![Plot](./pictures/setup.png)
 A Raspberry Pi 400 is used as the computer. Connected to the Pi are the "2450 SourceMeter" with USB, the "DAQ6510" with RS232 to USB, and the "IKA C-MAG HS 7" with RS232 to USB. The sample is placed on the heating plate. The four probes are placed on the sample with sufficient weight (!) and are connected to the "2450 SourceMeter"which is capable of the 4-point-measurement method. Two more probes are placed at the back of the probes that measure the voltage and are connected to the "DAQ6510," which ensures higher accuracy.
 
 ---
@@ -48,6 +49,8 @@ The following external libraries are used: yaml, atexit, matplotlib, numpy, usbt
 
 ---
 ##  <u> 5. Usage of the scripts: </u>
+![Plot](./pictures/plot.png)
+
 Before using "hauptprogramm.py" "config.yml" and "settings.txt" have to be configured.
 
 "config.yml" is used to configure the DAQ6510 and the heating plate (IKA or Eurotherm).
