@@ -1,13 +1,15 @@
 # meas-electric-conductivity
-Measure voltage and specific resistance with the 4-Point-methode
+
+Scripts to measure specific resistance with a 4-point-probe.
 
 ## <u> 1. About Us: </u>
-This project is used to measure voltage and specific resistance with the 4-point method. The Python script completely automates the process.
 
-The project is being processed by the model experiments group at the IKZ - Leibniz Institut für Kristallzüchtung.
+The project is developed and maintained by the [Model Experiments group](https://nemocrys.github.io/) at the Leibniz Institute for Crystal Growth (IKZ).
 
 ---
 ## <u> 2. Introduction: </u>
+This project is used to measure voltage and specific resistance with the 4-point method. The Python script completely automates the process.
+
 The 4-Point method uses four probes to measure voltage at a set current, which is induced by two of the four probes. The specific resistance can be calculated with the known and measured values. For additional information, read here: https://iopscience.iop.org/article/10.1088/0953-8984/27/22/223201/pdf.
 
 ---
@@ -64,3 +66,9 @@ If all settings are configured, hauptprogramm.py can be started. The program sho
 ---
 ##  <u> 6. Results: </u>
 Results are stored in the "data" folder. A list of every value record can be found in "data.csv". A list of average measurement data and standard deviations can be found in "measerment_data.csv". Also, a screenshot of the plot is found in the folder.
+
+## Acknowledgements
+
+[This project](https://nemocrys.github.io/) has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No 851768).
+
+<img src="https://raw.githubusercontent.com/nemocrys/pyelmer/master/EU-ERC.png">
