@@ -4,7 +4,7 @@ Scripts to measure specific resistance with a 4-point-probe.
 
 ## <u> 1. About Us: </u>
 
-The project is developed and maintained by the [Model Experiments group](https://nemocrys.github.io/) at the Leibniz Institute for Crystal Growth (IKZ).
+The project is developed and maintained by the [Model experiments group](https://www.ikz-berlin.de/en/research/materials-science/section-fundamental-description#c488) at the Leibniz Institute for Crystal Growth (IKZ).
 
 ---
 ## <u> 2. Introduction: </u>
