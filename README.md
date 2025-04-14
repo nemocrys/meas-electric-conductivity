@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/697671193.svg)](https://doi.org/10.5281/zenodo.15214430)
+
 # meas-electric-conductivity
 
 Scripts to measure specific resistance with a 4-point-probe.
